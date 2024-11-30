@@ -21,7 +21,7 @@ const ProductItem = ({ id, image, name, price }) => {
       </div>
 
       {/* Product name and price section */}
-      <div className="flex justify-between items-center w-full pt-3  pb-1">
+      <div className="flex  items-center w-full pt-3  pb-1">
         {/* Truncated product name */}
         <p className="truncate text-sm flex-grow">
           {name.split(' ').slice(0, 4).join(' ')}
