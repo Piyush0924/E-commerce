@@ -27,7 +27,7 @@ const ProductItem = ({ id, image, name, price }) => {
           {name.split(' ').slice(0, 4).join(' ')}
         </p>
         {/* Currency and price */}
-        <p className="text-sm font-medium flex-shrink-0">
+        <p className="text-sm font-medium flex-shrink-0 pr-3">
           <span>{currency}</span> {price}
         </p>
       </div>
