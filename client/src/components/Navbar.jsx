@@ -3,7 +3,6 @@ import { assets } from '../assets/assets';
 import { Link, NavLink } from 'react-router-dom';
 import { ShopContext } from '../context/ShopContext';
 
-
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
@@ -24,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center justify-between py-5 px-4 bg-gradient-to-r from-grey-500 via-blue-500 to-purple-500 shadow-md shadow-md hover:shadow-lg transition-shadow font-medium">
+    <div className="flex items-center justify-between py-5 px-4 bg-gradient-to-r from-grey-500 via-blue-500 to-purple-500 shadow-md hover:shadow-lg transition-shadow font-medium">
       {/* Logo */}
       <Link to="/">
         <img src={assets.logo} className="w-16" alt="Logo" />
@@ -35,8 +34,12 @@ const Navbar = () => {
         {['HOME', 'COLLECTION', 'ABOUT', 'CONTACT'].map((item, index) => (
           <NavLink
             key={index}
-            to={`/${item.toLowerCase()}`}
-            className="flex flex-col items-center gap-1 text-gray-500 hover:text-black transition"
+            to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`} // Ensure HOME navigates to "/"
+            className={({ isActive }) =>
+              `flex flex-col items-center gap-1 ${
+                isActive ? 'text-black' : 'text-gray-500'
+              } hover:text-black transition`
+            }
           >
             <p>{item}</p>
             <hr className="w-2/4 h-[1.5px] bg-gray-700 hidden" />
@@ -111,13 +114,17 @@ const Navbar = () => {
             onClick={() => setVisible(false)}
             className="flex items-center gap-4 p-3 cursor-pointer"
           >
-            <img className="h-4 rotate-180" src={assets.dropdown_icon} alt="Back" />
+            <img
+              className="h-4 rotate-180"
+              src={assets.dropdown_icon}
+              alt="Back"
+            />
             <p>Back</p>
           </div>
           {['HOME', 'COLLECTION', 'ABOUT', 'CONTACT'].map((item, index) => (
             <NavLink
               key={index}
-              to={`/${item.toLowerCase()}`}
+              to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`} // Ensure HOME navigates to "/"
               onClick={() => setVisible(false)}
               className="py-2 pl-6 border-b text-gray-700 hover:bg-gray-100"
             >
