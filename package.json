@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-commerce application with client, server, and admin panels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\" \"npm run admin\"",
+    "client": "cd ./client && vite",
+    "server": "cd ./server && nodemon index.js",
+    "admin": "cd ./admin && vite"
+  },
+  "keywords": [],
+  "author": "piyush",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.0"
+  },
+  "dependencies": {}
+}
