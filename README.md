@@ -51,25 +51,36 @@ Highlights policies like Free Shipping, Free Returns, and 24/7 Support.
 --**Privacy and T&Cs (Optional):**
 Displayed in a modal for user convenience.
 
-## Technologies Used
+### Technologies Used
 
   ## Frontend Technologies
---**React:** For building an interactive and dynamic user interface, including product listings, user authentication, and shopping cart management.
---**Tailwind CSS:** For styling and responsive design, providing a sleek and modern look across devices.
---**HTML & CSS:** As the foundational building blocks for structuring and styling the Frontend.
+--**React:** 
+For building an interactive and dynamic user interface, including product listings, user authentication, and shopping cart management.
+--**Tailwind CSS:** 
+For styling and responsive design, providing a sleek and modern look across devices.
+--**HTML & CSS:**
+As the foundational building blocks for structuring and styling the Frontend.
 
 ## Backend Technologies
 
---**Express.js:** For creating robust RESTful APIs to handle user authentication, product data management, and orders.
---**MongoDB:** A NoSQL database for storing user data, product catalogs, and order details efficiently.
---**Stripe:** Integrated for secure payment processing and handling transactions seamlessly.
+--**Express.js:**
+For creating robust RESTful APIs to handle user authentication, product data management, and orders.
+--**MongoDB:**
+A NoSQL database for storing user data, product catalogs, and order details efficiently.
+--**Stripe:**
+Integrated for secure payment processing and handling transactions seamlessly.
 
 ## Other Tools and Utilities
---**Cloudinary:** For managing and optimizing image uploads, such as product images, in a scalable and efficient manner.
---**ThunderClient:** Used during development to test and debug API endpoints effectively.
+--**Cloudinary:** 
+For managing and optimizing image uploads, such as product images, in a scalable and efficient manner.
+--**ThunderClient:** 
+Used during development to test and debug API endpoints effectively.
+
  ## Development Environment
---**VS Code (Visual Studio Code):** The primary IDE for coding, debugging, and managing the project's source files.
---**JavaScript (ES6+):* The programming language used for both front-end and back-end logic.
+--**VS Code (Visual Studio Code):**
+The primary IDE for coding, debugging, and managing the project's source files.
+--**JavaScript (ES6+):** 
+The programming language used for both front-end and back-end logic.
 
 
 
