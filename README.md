@@ -1,52 +1,85 @@
-# THE ENTERTAINMENT APP
+# E-commerce site
 
 ## Deployment URL
 
-- **Front-End: [https://mirajshow.netlify.app](https://mirajshow.netlify.app)**
-- **Back-End: [https://the-entertainment-app.onrender.com](https://the-entertainment-app.onrender.com)**
+- **client: [https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/)**
+- **admin: [https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app)**
+- **server: [https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app)**
 
-  The Entertainment App is designed for movie and TV lovers to easily find and save their favorite content. **Why is it useful?** It helps users quickly discover new shows and movies, streamlining their search for great entertainment. **How is it useful?** With an easy-to-use interface, it allows users to bookmark their favorites and get personalized recommendations, making their viewing experience smoother and more enjoyable.
+  The goal is to bridge the gap between users and businesses by offering a well-organized, visually appealing, and functional platform that caters to the demands of modern e-commerce. This dashboard is built with a focus on scalability, user satisfaction, and business growth.
 
 ## Screenshots
 
 ### Large Device
 
-![large-device1](https://mirajshow.netlify.app/large-device1.png)
-![large-device2](https://mirajshow.netlify.app/large-device2.png)
-![large-device3](https://mirajshow.netlify.app/large-device3.png)
+![e-commerce1](https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce1.png)
+![[e-commerce2](https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce2.png)
+![[e-commerce3](https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce3.png)
 
 ### Small Device
 
-<img src="https://mirajshow.netlify.app/small-device1.png" alt="Home" height="500">
-<img src="https://mirajshow.netlify.app/small-device2.png" alt="Home" height="500">
-<img src="https://mirajshow.netlify.app/small-device3.png" alt="Home" height="500">
+<img src="https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce4.png" alt="Home" height="500">
+<img src="https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce5.png" alt="Home" height="500">
+<img src="https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce6.png" alt="Home" height="500">
 
 ### Features:
 
-## Users can:
+--**Category Filter:**
+Filter products dynamically based on selected categories like "Clothing" etc.
 
-- **Sign Up for the app using their full name, email, and password to create a personalized account.**
-- **Log In using their email and password to securely access their account.**
-- **View an optimized layout that adjusts to different screen sizes, ensuring a great experience on any device.**
-- **Experience interactive elements with hover states, enhancing navigation and engagement.**
-- **Navigate easily between the Home, Movies, TV Series, and Bookmarked Shows pages.**
-- **Add or Remove Bookmarks from movies and TV series, allowing users to save their favorites.**
-- **Search for specific shows on any page, making it simple to find relevant content quickly.**
+--**Search Functionality:**
+Displays a search bar on clicking the search icon; filters products by name.
+
+--**Login Page:**
+User authentication with email and password validation.
+
+--**Product Card:**
+Showcases name, image, price (discounted & original), reviews, and buttons for adding to cart or favorites.
+
+--**Product Details Page:**
+Displays detailed product info, images, price, offers, delivery info, and an Add to Cart button.
+
+--**Cart Management:**
+Tracks items added to the cart, updates the total price dynamically, and allows editing.
+
+--**Favorites/Wishlist:**
+Saves favorite products and displays them on the Wishlist page.
+
+--**What We Sell Section:**
+Highlights policies like Free Shipping, Free Returns, and 24/7 Support.
+
+--**Privacy and T&Cs (Optional):**
+Displayed in a modal for user convenience.
 
 ## Technologies Used
 
-- **FrontEnd:** Built with React for a modern, dynamic design, styled using Tailwind CSS.
-- **State Management:** Utilized Redux Toolkit for efficient state management and a seamless user experience.
-- **API Integration:** Integrated with The Movie Database (TMDB) API for fetching movie and TV series data.
-- **Backend:** Developed using Node.js and Express.js, with MongoDB as the database for storing user data.
-- **Tools:** Used Postman for testing and verifying API endpoints and database interactions.
+  ## Frontend Technologies
+--**React:** For building an interactive and dynamic user interface, including product listings, user authentication, and shopping cart management.
+--**Tailwind CSS:** For styling and responsive design, providing a sleek and modern look across devices.
+--**HTML & CSS:** As the foundational building blocks for structuring and styling the Frontend.
+
+## Backend Technologies
+
+--**Express.js:** For creating robust RESTful APIs to handle user authentication, product data management, and orders.
+--**MongoDB:** A NoSQL database for storing user data, product catalogs, and order details efficiently.
+--**Stripe:** Integrated for secure payment processing and handling transactions seamlessly.
+
+## Other Tools and Utilities
+--**Cloudinary:** For managing and optimizing image uploads, such as product images, in a scalable and efficient manner.
+--**ThunderClient:** Used during development to test and debug API endpoints effectively.
+ ## Development Environment
+--**VS Code (Visual Studio Code):** The primary IDE for coding, debugging, and managing the project's source files.
+--**JavaScript (ES6+):* The programming language used for both front-end and back-end logic.
+
+
+
 
 ## How to Run
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone gh repo clone Piyush0924/The-Entertainment-App/
+   git clone gh repo clone Piyush0924/E-commerce/
    ```
 
 2. **Install the dependencies:**
@@ -55,32 +88,21 @@
    npm i
    cd client && npm i
    cd server && npm i
-   ```
-
-3. **Running the Project Locally:** Navigate to the project's root directory and run the following commands
-
-   ```bash
-   # Run the express server
-   npm run dev
-
-   # Run the react frontend
-   npm run dev
+   cd admin && npm i
    ```
 
    **OR**
 
    ```bash
-   # Run both frontend and backend concurrently
-   npm run both
+   # Run all of them one go.. client admin and server concurrently
+   npm run dev
    ```
-
-4. **Open the following URLs in your browser:** http://localhost:5173 for the frontend and http://localhost:8000 for the backend.
 
 ## API Documentation
 
 Explore the API endpoints and understand how to interact with the Entertainment backend.
 
-- **Postman Documentation:** [https://documenter.getpostman.com/view/36361121/2sA3rwMZRb](https://documenter.getpostman.com/view/36361121/2sA3rwMZRb)
+- **Postman Documentation:** 
 
 ## Developers
 
@@ -89,12 +111,6 @@ Explore the API endpoints and understand how to interact with the Entertainment 
 - **LinkedIn:** [https://www.linkedin.com/in/piyush-pakmode-12b252ab/](https://www.linkedin.com/in/piyush-pakmode-12b252ab/)
 - **Email:** pakmodepiyush0924@gmail.com
 
----
-
-- **Name:** Sumit Nagrikar
-- **GitHub:** [https://github.com/sumit-nagrikar](https://github.com/sumit-nagrikar)
-- **LinkedIn:** [https://www.linkedin.com/in/sumit-nagrikar](https://www.linkedin.com/in/sumit-nagrikar)
-- **Email:** sumitnagrikar1@gmail.com
 
 ## License
 
