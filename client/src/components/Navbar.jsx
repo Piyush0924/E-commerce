@@ -34,15 +34,14 @@ const Navbar = () => {
         {['HOME', 'COLLECTION', 'ABOUT', 'CONTACT'].map((item, index) => (
           <NavLink
             key={index}
-            to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`} // Ensure HOME navigates to "/"
+            to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`}
             className={({ isActive }) =>
               `flex flex-col items-center gap-1 ${
-                isActive ? 'text-black' : 'text-gray-500'
+                isActive ? 'text-black font-bold' : 'text-gray-500'
               } hover:text-black transition`
             }
           >
             <p>{item}</p>
-            <hr className="w-2/4 h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
         ))}
       </ul>
@@ -103,30 +102,44 @@ const Navbar = () => {
         />
       </div>
 
+      {/* Backdrop */}
+      {visible && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          onClick={() => setVisible(false)}
+        ></div>
+      )}
+
       {/* Sidebar for Small Screens */}
       <div
-        className={`absolute top-0 right-0 bottom-0 bg-white transition-all ${
-          visible ? 'w-full' : 'w-0'
+        className={`fixed top-0 right-0 h-full bg-white z-40 transform transition-transform duration-300 ${
+          visible ? 'translate-x-0 w-64' : 'translate-x-full w-0'
         }`}
       >
-        <div className="flex flex-col text-gray-600">
+        <div className="flex flex-col text-gray-600 h-full">
+          {/* Close Button */}
           <div
             onClick={() => setVisible(false)}
-            className="flex items-center gap-4 p-3 cursor-pointer"
+            className="flex items-center gap-4 p-3 cursor-pointer border-b"
           >
             <img
               className="h-4 rotate-180"
               src={assets.dropdown_icon}
               alt="Back"
             />
-            <p>Back</p>
+            <p>Close</p>
           </div>
+          {/* Navigation Links */}
           {['HOME', 'COLLECTION', 'ABOUT', 'CONTACT'].map((item, index) => (
             <NavLink
               key={index}
-              to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`} // Ensure HOME navigates to "/"
+              to={item === 'HOME' ? '/' : `/${item.toLowerCase()}`}
               onClick={() => setVisible(false)}
-              className="py-2 pl-6 border-b text-gray-700 hover:bg-gray-100"
+              className={({ isActive }) =>
+                `py-4 px-6 border-b text-sm ${
+                  isActive ? 'text-black font-bold' : 'text-gray-700'
+                } hover:bg-gray-100 transition`
+              }
             >
               {item}
             </NavLink>
