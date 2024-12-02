@@ -12,13 +12,14 @@
 
 ### Large Device
 
-![large-device1](https://kart-e-commerce.vercel.app/[large-device1.png])
-![large-device2](https://kart-e-commerce-admin.vercel.app/[large-device2.png])
+![large-device1](https://kart-e-commerce.vercel.app/large-device1.png)
+![large-device2](https://kart-e-commerce-admin.vercel.app/large-device2.png)
 
 ### Small Device
 
 <img src="https://kart-e-commerce.vercel.app/small-device3.png" alt="Home" height="500">
 <img src="https://kart-e-commerce-admin.vercel.app/small-device4.png" alt="Home" height="500">
+
 
 ### Features:
 
