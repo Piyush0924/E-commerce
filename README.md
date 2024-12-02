@@ -72,16 +72,16 @@ Displayed in a modal for user convenience.
 
 ## Other Tools and Utilities
 
--**Cloudinary:**
+- **Cloudinary:**
 For managing and optimizing image uploads, such as product images, in a scalable and efficient manner.
--**ThunderClient:**
+- **ThunderClient:**
 Used during development to test and debug API endpoints effectively.
 
 ## Development Environment
 
--**VS Code (Visual Studio Code):**
+- **VS Code (Visual Studio Code):**
 The primary IDE for coding, debugging, and managing the project's source files.
--**JavaScript (ES6+):**
+- **JavaScript (ES6+):**
 The programming language used for both front-end and back-end logic.
 
 ## How to Run
