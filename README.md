@@ -12,15 +12,13 @@
 
 ### Large Device
 
-![e-commerce1](https://kart-e-commerce.vercel.app/[e-commerce1.png)
-![[e-commerce2](https://kart-e-commerce-admin.vercel.app/[e-commerce2.png)
-
+![e-commerce1](https://kart-e-commerce.vercel.app/[e-commerce1.png])
+![e-commerce2](https://kart-e-commerce-admin.vercel.app/[e-commerce2.png])
 
 ### Small Device
 
 <img src="https://kart-e-commerce.vercel.app/e-commerce3.png" alt="Home" height="500">
 <img src="https://kart-e-commerce-admin.vercel.app/e-commerce4.png" alt="Home" height="500">
-
 
 ### Features:
 
@@ -53,10 +51,11 @@ Displayed in a modal for user convenience.
 
 ### Technologies Used
 
-  ## Frontend Technologies
---**React:** 
+## Frontend Technologies
+
+--**React:**
 For building an interactive and dynamic user interface, including product listings, user authentication, and shopping cart management.
---**Tailwind CSS:** 
+--**Tailwind CSS:**
 For styling and responsive design, providing a sleek and modern look across devices.
 --**HTML & CSS:**
 As the foundational building blocks for structuring and styling the Frontend.
@@ -71,19 +70,18 @@ A NoSQL database for storing user data, product catalogs, and order details effi
 Integrated for secure payment processing and handling transactions seamlessly.
 
 ## Other Tools and Utilities
---**Cloudinary:** 
+
+--**Cloudinary:**
 For managing and optimizing image uploads, such as product images, in a scalable and efficient manner.
---**ThunderClient:** 
+--**ThunderClient:**
 Used during development to test and debug API endpoints effectively.
 
- ## Development Environment
+## Development Environment
+
 --**VS Code (Visual Studio Code):**
 The primary IDE for coding, debugging, and managing the project's source files.
---**JavaScript (ES6+):** 
+--**JavaScript (ES6+):**
 The programming language used for both front-end and back-end logic.
-
-
-
 
 ## How to Run
 
@@ -113,7 +111,7 @@ The programming language used for both front-end and back-end logic.
 
 Explore the API endpoints and understand how to interact with the Entertainment backend.
 
-- **Postman Documentation:** 
+- **Postman Documentation:**
 
 ## Developers
 
@@ -121,7 +119,6 @@ Explore the API endpoints and understand how to interact with the Entertainment 
 - **GitHub:** [https://github.com/Piyush0924](https://github.com/Piyush0924)
 - **LinkedIn:** [https://www.linkedin.com/in/piyush-pakmode-12b252ab/](https://www.linkedin.com/in/piyush-pakmode-12b252ab/)
 - **Email:** pakmodepiyush0924@gmail.com
-
 
 ## License
 
