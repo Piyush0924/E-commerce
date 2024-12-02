@@ -2,9 +2,9 @@
 
 ## Deployment URL
 
-- **client: [https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/)**
-- **admin: [https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app)**
-- **server: [https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app)**
+- **client: [https://kart-e-commerce.vercel.app](https://kart-e-commerce.vercel.app)**
+- **admin: [https://kart-e-commerce-admin.vercel.app](https://kart-e-commerce-admin.vercel.app)**
+- **server: [https://e-commerce1-steel.vercel.app](https://e-commerce1-steel.vercel.app)**
 
   The goal is to bridge the gap between users and businesses by offering a well-organized, visually appealing, and functional platform that caters to the demands of modern e-commerce. This dashboard is built with a focus on scalability, user satisfaction, and business growth.
 
@@ -12,15 +12,15 @@
 
 ### Large Device
 
-![e-commerce1](https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce1.png)
-![[e-commerce2](https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce2.png)
-![[e-commerce3](https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app/[e-commerce3.png)
+![e-commerce1](https://kart-e-commerce.vercel.app/[e-commerce1.png)
+![[e-commerce2](https://kart-e-commerce-admin.vercel.app/[e-commerce2.png)
+
 
 ### Small Device
 
-<img src="https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce4.png" alt="Home" height="500">
-<img src="https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce5.png" alt="Home" height="500">
-<img src="https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app/e-commerce6.png" alt="Home" height="500">
+<img src="https://kart-e-commerce.vercel.app/e-commerce3.png" alt="Home" height="500">
+<img src="https://kart-e-commerce-admin.vercel.app/e-commerce4.png" alt="Home" height="500">
+
 
 ### Features:
 
