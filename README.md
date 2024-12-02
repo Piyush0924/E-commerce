@@ -2,7 +2,7 @@
 
 ## Deployment URL
 
-- **client: [https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app/)**
+- **client: [https://kart-e-commerce.vercel.app/](https://kart-e-commerce.vercel.app/)**
 - **admin: [https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce-admin-git-main-piyushs-projects-c005e3cc.vercel.app)**
 - **server: [https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app](https://e-commerce1-git-main-piyushs-projects-c005e3cc.vercel.app)**
 
